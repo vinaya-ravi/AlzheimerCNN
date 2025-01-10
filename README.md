@@ -1,31 +1,31 @@
 **Alzheimer's Disease Classification using Deep Learning**
 
-**Overview**
-This project implements a **Convolutional Neural Network (CNN)** to classify Alzheimer's Disease into four stages:
-**Non-Demented**
-**Very Mild Demented**
-**Mild Demented**
-**Moderate Demented**
+**Overview**<br>
+This project implements a **Convolutional Neural Network (CNN)** to classify Alzheimer's Disease into four stages:<br>
+**Non-Demented**<br>
+**Very Mild Demented**<br>
+**Mild Demented**<br>
+**Moderate Demented**<br>
 The model is designed to analyze medical images and provide accurate classification, aiding in early diagnosis and treatment planning. The dataset used is sourced from open-access repositories, ensuring diversity and reliability.
 
-**System Design**
-The classification system follows a structured pipeline:
-**Dataset Preparation**: Images labeled into four classes.
-**Preprocessing**: Includes normalization, resizing, and dataset splitting (80% training, 20% testing).
-**Feature Extraction**: CNN extracts key features such as edges, textures, and patterns indicative of Alzheimer's Disease.
-**Model Training**: The CNN is trained using backpropagation and gradient descent to minimize classification errors.
-**Validation & Testing**: Model performance is evaluated on unseen data to ensure generalization.
-**Result Analysis**: Metrics like accuracy, precision, recall, and confusion matrix are computed for performance assessment.
+**System Design**<br>
+The classification system follows a structured pipeline:<br>
+**Dataset Preparation**: Images labeled into four classes.<br>
+**Preprocessing**: Includes normalization, resizing, and dataset splitting (80% training, 20% testing).<br>
+**Feature Extraction**: CNN extracts key features such as edges, textures, and patterns indicative of Alzheimer's Disease.<br>
+**Model Training**: The CNN is trained using backpropagation and gradient descent to minimize classification errors.<br>
+**Validation & Testing**: Model performance is evaluated on unseen data to ensure generalization.<br>
+**Result Analysis**: Metrics like accuracy, precision, recall, and confusion matrix are computed for performance assessment.<br>
 
-**System Architecture**
-The CNN architecture includes:
-**Input Layer**: Processes preprocessed image data.
-**Hidden Layers**: Convolutional layers for feature extraction, pooling layers for dimensionality reduction, and fully connected layers for classification.
+**System Architecture**<br>
+The CNN architecture includes:<br>
+**Input Layer**: Processes preprocessed image data.<br>
+**Hidden Layers**: Convolutional layers for feature extraction, pooling layers for dimensionality reduction, and fully connected layers for classification.<br>
 **Output Layer**: Softmax activation to predict class probabilities.
 
-**Data Flow**
-Input raw dataset → Preprocessing (normalization & scaling) → Train/Test Split
-Training Data → CNN Training → Model Validation → Performance Evaluation
+**Data Flow**<br>
+Input raw dataset → Preprocessing (normalization & scaling) → Train/Test Split<br>
+Training Data → CNN Training → Model Validation → Performance Evaluation<br>
 Testing Data → Model Testing → Classification Results
 
 **Results**
